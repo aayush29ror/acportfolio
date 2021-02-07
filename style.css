@@ -263,6 +263,9 @@ text-transform: capitalize;
     position: relative;
     z-index: 1;
 }
+.home-text h2{
+    padding-bottom: 15px;
+}
 .home-text h2 span::after{
     content:'';
     position: absolute;
@@ -281,7 +284,6 @@ text-transform: capitalize;
 }
 .home-img-inner img{
     width:100%;
-    opacity: 0;
 }
 .home-course{
     position: absolute;
@@ -561,7 +563,6 @@ background-color: var(--color-1);
   }
   .contact-img img{
       max-width: 420px;
-      opacity: 0.5;
       width:100%;
       animation: zoomOutIn01 7s linear infinite ;
   }
